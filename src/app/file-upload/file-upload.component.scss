@@ -1,0 +1,14 @@
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 8px;
+    width: 600px;
+    height: 180px;
+    border-radius: 12px;
+    border: 1px dashed var(--input-text-color);
+    background: #F4F3FF;
+    gap: 24px;
+}

@@ -82,9 +82,10 @@ video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font-size: 14px;
+	font-family: firaGo !important;
 	vertical-align: baseline;
+	color: var(--text-color);
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -128,6 +129,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
 
 :root {
 	--body-bg: #F3F2FA;
@@ -135,6 +139,8 @@ table {
 	--btn-bg: #5D37F3;
 	--navbar-bg: #FFFFFF;
 	--btn-text: #FFFFFF;
+	--text-color: #1A1A1F;
+	--input-text-color: #85858D;
 }
 
 .btn {
@@ -142,7 +148,7 @@ table {
 	border-radius: 8px;
 	color: var(--btn-text);
 	background-color: var(--btn-bg);
-	font: 14px FiraGO;
+	font-size: 14px;
 	line-height: 20px;
 	border: none;
 }
