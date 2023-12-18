@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--navbar-bg);
+    height: 80px;
+    border-bottom: 1px solid #E4E3EB;
+    padding: 0 76px;
+}
+header:has(button){
+    justify-content: space-between;
+}
