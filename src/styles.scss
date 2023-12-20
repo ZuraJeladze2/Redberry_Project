@@ -1,3 +1,4 @@
+@import url(assets/fonts/fonts.scss);
 html,
 body,
 div,
@@ -83,7 +84,7 @@ video {
 	padding: 0;
 	border: 0;
 	font-size: 14px;
-	font-family: firaGo !important;
+	// font-family: firaGo !important;
 	vertical-align: baseline;
 	color: var(--text-color);
 }
@@ -132,7 +133,21 @@ table {
 h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
 }
-
+h1{ font-size: 64px;}
+h2{ font-size: 32px;}
+h3{ font-size: 20px;}
+h4{ font-size: 16px;}
+h5{ font-size: 14px;}
+p{
+	color: #404049;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px; /* 175% */
+}
+*{
+	font-family: FiraGo, sans-serif;
+}
 :root {
 	--body-bg: #F3F2FA;
 	--admin-body-bg: #FBFAFF;
