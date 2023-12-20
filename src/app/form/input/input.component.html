@@ -1,0 +1,18 @@
+<div [ngStyle]="styles">    
+    <label for="field" *ngIf="label === 'author'"><h5>ავტორი *</h5></label>
+    <label for="field" *ngIf="label === 'title'"><h5>სათაური *</h5></label>
+    <label for="field" *ngIf="label === 'email'"><h5>ელ-ფოსტა</h5></label>
+    <br>
+    <input type="text" id="field" placeholder="შეიყვნეთ ავტორი" *ngIf="label === 'author'">
+    <input type="text" id="field" placeholder="შეიყვნეთ სათაური" *ngIf="label === 'title'">
+    <input type="email" id="field" placeholder="Example@redberry.ge" *ngIf="label === 'email'">
+    <br>
+    <ul *ngIf="label === 'author'">
+        <li>მინიმუმ 4 სიმბოლო</li>
+        <li>მინიმუმ ორი სიტყვა</li>
+        <li>მხოლოდ ქართლი სიმბოლოები</li>
+    </ul>
+    <ul class="no-list-style">
+        <li *ngIf="label === 'title'">მინიმუმ ორი სიმბოლო</li>
+    </ul>
+</div>
