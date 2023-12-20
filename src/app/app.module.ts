@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FileUploadComponent } from './file-upload/file-upload.component';
 import { AdminComponent } from './admin/admin.component';
+import { InputComponent } from './form/input/input.component';
+import { CategoryComponent } from './form/category/category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FileUploadComponent,
-    AdminComponent
+    AdminComponent,
+    InputComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
