@@ -133,13 +133,14 @@ table {
 h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
 }
-h1{ font-size: 64px;}
-h2{ font-size: 32px;}
-h3{ font-size: 20px;}
-h4{ font-size: 16px;}
-h5{ font-size: 14px;}
+h1{ font-size: 64px; line-height: 72px; }
+h2{ font-size: 32px; line-height: 40px; }
+h3{ font-size: 20px; line-height: 28px; }
+h4{ font-size: 16px; line-height: 20px; }
+h5{ font-size: 14px; line-height: 20px; }
+h5{ font-size: 12px; line-height: 16px; }
 p{
-	color: #404049;
+	color: var(--p-color);
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -159,6 +160,7 @@ p{
 	--input-bg: #FCFCFD;
 	--input-border-color: #E4E3EB;
 	--li-color: #85858D; 
+	--p-color: #404049;
 }
 
 .btn {
