@@ -1,5 +1,18 @@
-<section class="container">
-    <h2 style="margin-bottom: 40px;">ბლოგის დამატება</h2>
-    <!-- <app-file-upload></app-file-upload> -->
-    <app-input label="author" [styles]="{'margin-top.px': 24}"></app-input>
-</section>
+<div class="wrapper d-flex justify-content-center">
+    <section class="my-container">
+        <h2 style="margin-bottom: 40px;">ბლოგის დამატება</h2>
+        <app-file-upload></app-file-upload>
+        <section class="inputs d-flex justify-content-between flex-column">
+            <div class="d-flex justify-content-between">
+                <app-input label="author" [styles]="{'margin-top.px': 24}"></app-input>
+                <app-input label="title" [styles]="{'margin-top.px': 24}"></app-input>
+            </div>
+            <app-input label="description" [styles]="{'margin-top.px': 24}"></app-input>
+            <div class="d-flex justify-content-between flex-wrap">
+                <app-input label="date" [styles]="{'margin-top.px': 24}"></app-input>
+                <app-input label="title" [styles]="{'margin-top.px': 24}"></app-input>
+                <app-input label="email" [styles]="{'margin-top.px': 0}"></app-input>
+            </div>
+        </section>
+    </section>
+</div>
